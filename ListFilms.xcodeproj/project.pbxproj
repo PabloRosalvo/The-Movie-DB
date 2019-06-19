@@ -15,6 +15,7 @@
 		6D43D00422B9DCCD00D290ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D43D00222B9DCCD00D290ED /* LaunchScreen.storyboard */; };
 		6D43D00F22B9DCCD00D290ED /* ListFilmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D43D00E22B9DCCD00D290ED /* ListFilmsTests.swift */; };
 		6D43D01A22B9DCCD00D290ED /* ListFilmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D43D01922B9DCCD00D290ED /* ListFilmsUITests.swift */; };
+		6D601C0722B9DE97002C013D /* ListFilmsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D601C0622B9DE97002C013D /* ListFilmsRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6D43D01522B9DCCD00D290ED /* ListFilmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListFilmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D43D01922B9DCCD00D290ED /* ListFilmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFilmsUITests.swift; sourceTree = "<group>"; };
 		6D43D01B22B9DCCD00D290ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D601C0622B9DE97002C013D /* ListFilmsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFilmsRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		6D601C0522B9DD4C002C013D /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				6D601C0622B9DE97002C013D /* ListFilmsRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				6D43CFF922B9DCCA00D290ED /* ViewController.swift in Sources */,
 				6D43CFFF22B9DCCA00D290ED /* ListFilms.xcdatamodeld in Sources */,
 				6D43CFF722B9DCCA00D290ED /* AppDelegate.swift in Sources */,
+				6D601C0722B9DE97002C013D /* ListFilmsRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +456,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.study.com.ListFilms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -469,7 +473,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.study.com.ListFilms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
